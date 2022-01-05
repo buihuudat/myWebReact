@@ -79,12 +79,12 @@ const Footer = () => {
         <Link to="/" className="footer__logo">
           Bui Huu Dat
         </Link>
-        <div className="footer__social">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-youtube"></i>
-          <i class="fab fa-soundcloud"></i>
-          <i class="fab fa-spotify"></i>
-          <i class="fab fa-napster"></i>
+        <div className="contact__socials">
+            <a href="" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="" title="Youtube"><i class="fab fa-youtube"></i></a>
+            <a href="" title="Sound Cloud"><i class="fab fa-soundcloud"></i></a>
+            <a href="" title="Spotify"><i class="fab fa-spotify"></i></a>
+            <a href="" title="Napster"><i class="fab fa-napster"></i></a>
         </div>
         <div className="footer__title">
           Let the Music Speak!
